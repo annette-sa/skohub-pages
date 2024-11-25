@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix huhu: <https://w3id.org/>.
+
+huhu:
+    a skos:ConceptScheme;
+    dct:description "Rabbinica"@en;
+    dct:title "Rabbinical Literature"@en, "Rabbinische Literatur"@de;
+    vann:preferredNamespaceUri huhu:;
+    skos:hasTopConcept huhu:eecde.
+huhu:1480a
+    a skos:Concept;
+    skos:broader huhu:eecde;
+    skos:inScheme huhu:;
+    skos:prefLabel "Talmud Yerushalmi"@en.
+huhu:80fff
+    a skos:Concept;
+    skos:broader huhu:eecde;
+    skos:inScheme huhu:;
+    skos:prefLabel "Gemara"@en.
+huhu:9e1bf
+    a skos:Concept;
+    skos:broader huhu:eecde;
+    skos:inScheme huhu:;
+    skos:prefLabel "Mishnah"@en.
+huhu:eecde
+    a skos:Concept;
+    skos:narrower huhu:1480a, huhu:80fff, huhu:9e1bf, huhu:fe5d4;
+    skos:prefLabel "Talmud"@en;
+    skos:topConceptOf huhu: .
+huhu:fe5d4
+    a skos:Concept;
+    skos:broader huhu:eecde;
+    skos:inScheme huhu:;
+    skos:prefLabel "Talmud Bavli"@en.
