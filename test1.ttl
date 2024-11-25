@@ -4,31 +4,31 @@
 
 w3i:
     a skos:ConceptScheme;
-    dct:description "Entwurf Rabbinica"@en;
-    dct:title "Rabbinische Literatur"@en;
+    dct:description "Rabbinica"@en;
+    dct:title "Rabbinical Literature"@en;
     skos:hasTopConcept w3i:eecde.
 w3i:1480a
     a skos:Concept;
     skos:broader w3i:eecde;
     skos:inScheme w3i:;
-    skos:prefLabel "Talmud Yerushalmi"@de.
+    skos:prefLabel "Talmud Yerushalmi"@en.
 w3i:80fff
     a skos:Concept;
     skos:broader w3i:eecde;
     skos:inScheme w3i:;
-    skos:prefLabel "Gemara"@de.
+    skos:prefLabel "Gemara"@en.
 w3i:9e1bf
     a skos:Concept;
     skos:broader w3i:eecde;
     skos:inScheme w3i:;
-    skos:prefLabel "Mishnah"@de.
+    skos:prefLabel "Mishnah"@en.
 w3i:eecde
     a skos:Concept;
     skos:narrower w3i:1480a, w3i:80fff, w3i:9e1bf, w3i:fe5d4;
-    skos:prefLabel "Talmud"@de;
+    skos:prefLabel "Talmud"@en;
     skos:topConceptOf w3i: .
 w3i:fe5d4
     a skos:Concept;
     skos:broader w3i:eecde;
     skos:inScheme w3i:;
-    skos:prefLabel "Talmud Bavli"@de.
+    skos:prefLabel "Talmud Bavli"@en.
