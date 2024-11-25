@@ -2,19 +2,19 @@
   "id": "https://w3id.org/1480a",
   "type": "Concept",
   "prefLabel": {
-    "de": "Talmud Yerushalmi"
+    "en": "Talmud Yerushalmi"
   },
   "broader": {
     "id": "https://w3id.org/eecde",
     "prefLabel": {
-      "de": "Talmud"
+      "en": "Talmud"
     }
   },
   "inScheme": [
     {
       "id": "https://w3id.org/",
       "title": {
-        "en": "Rabbinische Literatur"
+        "en": "Rabbinical Literature"
       }
     }
   ],

@@ -2,19 +2,19 @@
   "id": "https://w3id.org/9e1bf",
   "type": "Concept",
   "prefLabel": {
-    "de": "Mishnah"
+    "en": "Mishnah"
   },
   "broader": {
     "id": "https://w3id.org/eecde",
     "prefLabel": {
-      "de": "Talmud"
+      "en": "Talmud"
     }
   },
   "inScheme": [
     {
       "id": "https://w3id.org/",
       "title": {
-        "en": "Rabbinische Literatur"
+        "en": "Rabbinical Literature"
       }
     }
   ],

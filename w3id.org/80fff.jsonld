@@ -2,19 +2,19 @@
   "id": "https://w3id.org/80fff",
   "type": "Concept",
   "prefLabel": {
-    "de": "Gemara"
+    "en": "Gemara"
   },
   "broader": {
     "id": "https://w3id.org/eecde",
     "prefLabel": {
-      "de": "Talmud"
+      "en": "Talmud"
     }
   },
   "inScheme": [
     {
       "id": "https://w3id.org/",
       "title": {
-        "en": "Rabbinische Literatur"
+        "en": "Rabbinical Literature"
       }
     }
   ],

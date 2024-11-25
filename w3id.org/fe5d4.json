@@ -2,19 +2,19 @@
   "id": "https://w3id.org/fe5d4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Talmud Bavli"
+    "en": "Talmud Bavli"
   },
   "broader": {
     "id": "https://w3id.org/eecde",
     "prefLabel": {
-      "de": "Talmud"
+      "en": "Talmud"
     }
   },
   "inScheme": [
     {
       "id": "https://w3id.org/",
       "title": {
-        "en": "Rabbinische Literatur"
+        "en": "Rabbinical Literature"
       }
     }
   ],

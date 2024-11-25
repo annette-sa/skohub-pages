@@ -2,31 +2,31 @@
   "id": "https://w3id.org/eecde",
   "type": "Concept",
   "prefLabel": {
-    "de": "Talmud"
+    "en": "Talmud"
   },
   "narrower": [
     {
       "id": "https://w3id.org/1480a",
       "prefLabel": {
-        "de": "Talmud Yerushalmi"
+        "en": "Talmud Yerushalmi"
       }
     },
     {
       "id": "https://w3id.org/80fff",
       "prefLabel": {
-        "de": "Gemara"
+        "en": "Gemara"
       }
     },
     {
       "id": "https://w3id.org/9e1bf",
       "prefLabel": {
-        "de": "Mishnah"
+        "en": "Mishnah"
       }
     },
     {
       "id": "https://w3id.org/fe5d4",
       "prefLabel": {
-        "de": "Talmud Bavli"
+        "en": "Talmud Bavli"
       }
     }
   ],
@@ -34,7 +34,7 @@
     {
       "id": "https://w3id.org/",
       "title": {
-        "en": "Rabbinische Literatur"
+        "en": "Rabbinical Literature"
       }
     }
   ],
@@ -47,7 +47,7 @@
     {
       "id": "https://w3id.org/",
       "title": {
-        "en": "Rabbinische Literatur"
+        "en": "Rabbinical Literature"
       }
     }
   ],
