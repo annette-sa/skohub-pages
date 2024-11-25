@@ -4,8 +4,8 @@
 
 w3i:
     a skos:ConceptScheme;
-    dct:description "Entwurf Rabbinica"@en;
-    dct:title "Rabbinische Literatur"@en;
+    dct:description "Rabbinica"@en;
+    dct:title "Rabbinical Literature"@en;
     skos:hasTopConcept w3i:eecde.
 w3i:1480a
     a skos:Concept;
