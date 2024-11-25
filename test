@@ -1,0 +1,34 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix w3i: <https://w3id.org/>.
+
+w3i:
+    a skos:ConceptScheme;
+    dct:description "Entwurf Rabbinica"@en;
+    dct:title "Rabbinische Literatur"@en;
+    skos:hasTopConcept w3i:eecde.
+w3i:1480a
+    a skos:Concept;
+    skos:broader w3i:eecde;
+    skos:inScheme w3i:;
+    skos:prefLabel "Talmud Yerushalmi"@de.
+w3i:80fff
+    a skos:Concept;
+    skos:broader w3i:eecde;
+    skos:inScheme w3i:;
+    skos:prefLabel "Gemara"@de.
+w3i:9e1bf
+    a skos:Concept;
+    skos:broader w3i:eecde;
+    skos:inScheme w3i:;
+    skos:prefLabel "Mishnah"@de.
+w3i:eecde
+    a skos:Concept;
+    skos:narrower w3i:1480a, w3i:80fff, w3i:9e1bf, w3i:fe5d4;
+    skos:prefLabel "Talmud"@de;
+    skos:topConceptOf w3i: .
+w3i:fe5d4
+    a skos:Concept;
+    skos:broader w3i:eecde;
+    skos:inScheme w3i:;
+    skos:prefLabel "Talmud Bavli"@de.
